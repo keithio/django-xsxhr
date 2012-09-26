@@ -9,7 +9,7 @@ Enables cross domain XmlHttpRequests.
 
 2. Edit your ``settings.py`` file to include the following line in your ``MIDDLEWARE_CLASSES``: 
 
-    'xsxhr.middleware.XsXhrMiddleware',
+    ``'xsxhr.middleware.XsXhrMiddleware',``
     
 ## Reference
 
