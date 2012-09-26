@@ -1,4 +1,3 @@
-# Django modules
 from django import http
 from django.conf import settings
 
@@ -18,12 +17,12 @@ XS_XHR_ALLOWCT = getattr(settings, 'XS_XHR_ALLOWCT', True)
 
 class XsXhrMiddleware(object):
     """
-        This middleware allows cross-domain XHR using the html5 postMessage API.
+    This middleware allows cross-domain XmlHttpRquests using the HTML5
+    postMessage API.
 
-        Access-Control-Allow-Origin: http://foo.example
-        Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE
+    More info: http://www.w3.org/TR/html5/comms.html.
 
-        Based on code from https://gist.github.com/426829.
+    Based on code from https://gist.github.com/426829.
     """
     def process_request(self, request):
         """
