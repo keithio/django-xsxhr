@@ -5,7 +5,7 @@ Enables cross domain XmlHttpRequests.
 
 ## Usage
 
-1. Add ``django-xsxhr`` to your Python path.
+1. Add ``xsxhr`` to your Python path.
 
 2. Edit your ``settings.py`` file to include the following line in your ``MIDDLEWARE_CLASSES``: 
 
