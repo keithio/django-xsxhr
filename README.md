@@ -31,3 +31,15 @@ The following are specified anywhere in your ``settings.py``. If you have differ
     XS_XHR_METHODS = ['GET', 'OPTIONS']  # Specifies read-only access
     
     XS_XHR_ALLOWCT = False  # Do not allow request to specify Content-Type header
+    
+
+####Danger!
+
+You have the option to specify a wildcard ``*`` for the ``XS_XHR_ORIGINS`` variable. Doing so will leave which ever resources you have available open. It is recommended that you only do so when you limit the ``XS_XHR_METHODS`` as shown above.
+
+
+##Notes on CSRF:
+
+The Django docs also provide a JavaScript to enable sending XmlHttpRequests to submit form data. I have included ``csrf.js`` for jQuery 1.5+. 
+
+[From Django Docs](https://docs.djangoproject.com/en/dev/ref/contrib/csrf/)
