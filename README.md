@@ -43,3 +43,6 @@ You have the option to specify a wildcard ``*`` for the ``XS_XHR_ORIGINS`` varia
 The Django docs also provide a JavaScript to enable sending XmlHttpRequests to submit form data. I have included ``csrf.js`` for jQuery 1.5+. 
 
 [From Django Docs](https://docs.djangoproject.com/en/dev/ref/contrib/csrf/)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/keithio/django-xsxhr/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
